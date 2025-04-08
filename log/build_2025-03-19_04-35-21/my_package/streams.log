@@ -1,0 +1,24 @@
+[7.079s] Invoking command in '/home/ubuntu/ros2_ws/src/my_package': PYTHONPATH=/home/ubuntu/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/ubuntu/ros2_ws/build/my_package/build install --record /home/ubuntu/ros2_ws/build/my_package/install.log --single-version-externally-managed install_data
+[9.677s] running egg_info
+[9.683s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[9.689s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[9.692s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[9.694s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[9.695s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[9.714s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[9.728s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[9.729s] running build
+[9.731s] running build_py
+[9.736s] copying my_package/motor_listener.py -> /home/ubuntu/ros2_ws/build/my_package/build/lib/my_package
+[9.739s] running install
+[9.744s] running install_lib
+[9.755s] copying /home/ubuntu/ros2_ws/build/my_package/build/lib/my_package/motor_listener.py -> /home/ubuntu/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[9.764s] byte-compiling /home/ubuntu/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/motor_listener.py to motor_listener.cpython-310.pyc
+[9.767s] running install_data
+[9.771s] running install_egg_info
+[9.781s] removing '/home/ubuntu/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)
+[9.785s] Copying ../../build/my_package/my_package.egg-info to /home/ubuntu/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[9.802s] running install_scripts
+[10.005s] Installing motor_listener script to /home/ubuntu/ros2_ws/install/my_package/lib/my_package
+[10.012s] writing list of installed files to '/home/ubuntu/ros2_ws/build/my_package/install.log'
+[10.236s] Invoked command in '/home/ubuntu/ros2_ws/src/my_package' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/ubuntu/ros2_ws/build/my_package/build install --record /home/ubuntu/ros2_ws/build/my_package/install.log --single-version-externally-managed install_data

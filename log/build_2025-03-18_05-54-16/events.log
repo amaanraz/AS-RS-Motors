@@ -1,0 +1,153 @@
+[0.000000] (-) TimerEvent: {}
+[0.002202] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.006773] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.092958] (-) TimerEvent: {}
+[0.194274] (-) TimerEvent: {}
+[0.295565] (-) TimerEvent: {}
+[0.397131] (-) TimerEvent: {}
+[0.499940] (-) TimerEvent: {}
+[0.603265] (-) TimerEvent: {}
+[0.708122] (-) TimerEvent: {}
+[0.811094] (-) TimerEvent: {}
+[0.916038] (-) TimerEvent: {}
+[1.018637] (-) TimerEvent: {}
+[1.121468] (-) TimerEvent: {}
+[1.223959] (-) TimerEvent: {}
+[1.326496] (-) TimerEvent: {}
+[1.429096] (-) TimerEvent: {}
+[1.531723] (-) TimerEvent: {}
+[1.634896] (-) TimerEvent: {}
+[1.737524] (-) TimerEvent: {}
+[1.840042] (-) TimerEvent: {}
+[1.942724] (-) TimerEvent: {}
+[2.045831] (-) TimerEvent: {}
+[2.149077] (-) TimerEvent: {}
+[2.251816] (-) TimerEvent: {}
+[2.355646] (-) TimerEvent: {}
+[2.458348] (-) TimerEvent: {}
+[2.560883] (-) TimerEvent: {}
+[2.663661] (-) TimerEvent: {}
+[2.766625] (-) TimerEvent: {}
+[2.870986] (-) TimerEvent: {}
+[2.973653] (-) TimerEvent: {}
+[3.077691] (-) TimerEvent: {}
+[3.180750] (-) TimerEvent: {}
+[3.283875] (-) TimerEvent: {}
+[3.387689] (-) TimerEvent: {}
+[3.490450] (-) TimerEvent: {}
+[3.593144] (-) TimerEvent: {}
+[3.695946] (-) TimerEvent: {}
+[3.798668] (-) TimerEvent: {}
+[3.901577] (-) TimerEvent: {}
+[4.005091] (-) TimerEvent: {}
+[4.107619] (-) TimerEvent: {}
+[4.210382] (-) TimerEvent: {}
+[4.312898] (-) TimerEvent: {}
+[4.415587] (-) TimerEvent: {}
+[4.518185] (-) TimerEvent: {}
+[4.620826] (-) TimerEvent: {}
+[4.723405] (-) TimerEvent: {}
+[4.825949] (-) TimerEvent: {}
+[4.928601] (-) TimerEvent: {}
+[5.031302] (-) TimerEvent: {}
+[5.133953] (-) TimerEvent: {}
+[5.236622] (-) TimerEvent: {}
+[5.339380] (-) TimerEvent: {}
+[5.443378] (-) TimerEvent: {}
+[5.546104] (-) TimerEvent: {}
+[5.650420] (-) TimerEvent: {}
+[5.753109] (-) TimerEvent: {}
+[5.858769] (-) TimerEvent: {}
+[5.961314] (-) TimerEvent: {}
+[6.063722] (-) TimerEvent: {}
+[6.166365] (-) TimerEvent: {}
+[6.269180] (-) TimerEvent: {}
+[6.372366] (-) TimerEvent: {}
+[6.475625] (-) TimerEvent: {}
+[6.578833] (-) TimerEvent: {}
+[6.680220] (-) TimerEvent: {}
+[6.781764] (-) TimerEvent: {}
+[6.884173] (-) TimerEvent: {}
+[6.987609] (-) TimerEvent: {}
+[7.090749] (-) TimerEvent: {}
+[7.193835] (-) TimerEvent: {}
+[7.295543] (-) TimerEvent: {}
+[7.398839] (-) TimerEvent: {}
+[7.502530] (-) TimerEvent: {}
+[7.604137] (-) TimerEvent: {}
+[7.706128] (-) TimerEvent: {}
+[7.807490] (-) TimerEvent: {}
+[7.909208] (-) TimerEvent: {}
+[8.011673] (-) TimerEvent: {}
+[8.113702] (-) TimerEvent: {}
+[8.173817] (my_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_package', 'build', '--build-base', '/home/ubuntu/ros2_ws/build/my_package/build', 'install', '--record', '/home/ubuntu/ros2_ws/build/my_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/ros2_ws/src/my_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.1.103 53750 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/ros2_ws/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '9', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/ros2_ws/build/my_package', 'SSH_CONNECTION': '192.168.1.103 53750 192.168.1.95 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[8.214017] (-) TimerEvent: {}
+[8.318466] (-) TimerEvent: {}
+[8.421082] (-) TimerEvent: {}
+[8.523587] (-) TimerEvent: {}
+[8.626068] (-) TimerEvent: {}
+[8.727578] (-) TimerEvent: {}
+[8.829125] (-) TimerEvent: {}
+[8.930680] (-) TimerEvent: {}
+[9.032315] (-) TimerEvent: {}
+[9.133980] (-) TimerEvent: {}
+[9.235554] (-) TimerEvent: {}
+[9.337121] (-) TimerEvent: {}
+[9.438620] (-) TimerEvent: {}
+[9.540051] (-) TimerEvent: {}
+[9.641604] (-) TimerEvent: {}
+[9.743125] (-) TimerEvent: {}
+[9.844655] (-) TimerEvent: {}
+[9.946308] (-) TimerEvent: {}
+[10.048214] (-) TimerEvent: {}
+[10.151259] (-) TimerEvent: {}
+[10.252814] (-) TimerEvent: {}
+[10.354344] (-) TimerEvent: {}
+[10.455826] (-) TimerEvent: {}
+[10.557297] (-) TimerEvent: {}
+[10.658868] (-) TimerEvent: {}
+[10.760363] (-) TimerEvent: {}
+[10.861880] (-) TimerEvent: {}
+[10.963391] (-) TimerEvent: {}
+[11.064941] (-) TimerEvent: {}
+[11.126760] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[11.128656] (my_package) StdoutLine: {'line': b'creating ../../build/my_package/my_package.egg-info\n'}
+[11.130026] (my_package) StdoutLine: {'line': b'writing ../../build/my_package/my_package.egg-info/PKG-INFO\n'}
+[11.131610] (my_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt\n'}
+[11.133004] (my_package) StdoutLine: {'line': b'writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt\n'}
+[11.134564] (my_package) StdoutLine: {'line': b'writing requirements to ../../build/my_package/my_package.egg-info/requires.txt\n'}
+[11.136048] (my_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt\n'}
+[11.137556] (my_package) StdoutLine: {'line': b"writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[11.154831] (my_package) StdoutLine: {'line': b"reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[11.163433] (my_package) StdoutLine: {'line': b"writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[11.165178] (-) TimerEvent: {}
+[11.166329] (my_package) StdoutLine: {'line': b'running build\n'}
+[11.168628] (my_package) StdoutLine: {'line': b'running build_py\n'}
+[11.170107] (my_package) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/my_package/build\n'}
+[11.171293] (my_package) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/my_package/build/lib\n'}
+[11.172248] (my_package) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/my_package/build/lib/my_package\n'}
+[11.173923] (my_package) StdoutLine: {'line': b'copying my_package/__init__.py -> /home/ubuntu/ros2_ws/build/my_package/build/lib/my_package\n'}
+[11.175053] (my_package) StdoutLine: {'line': b'running install\n'}
+[11.176524] (my_package) StdoutLine: {'line': b'running install_lib\n'}
+[11.185341] (my_package) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package\n'}
+[11.186965] (my_package) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/my_package/build/lib/my_package/__init__.py -> /home/ubuntu/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package\n'}
+[11.193195] (my_package) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/__init__.py to __init__.cpython-310.pyc\n'}
+[11.196156] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[11.197636] (my_package) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/my_package/share/ament_index\n'}
+[11.199653] (my_package) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/my_package/share/ament_index/resource_index\n'}
+[11.200906] (my_package) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/my_package/share/ament_index/resource_index/packages\n'}
+[11.202388] (my_package) StdoutLine: {'line': b'copying resource/my_package -> /home/ubuntu/ros2_ws/install/my_package/share/ament_index/resource_index/packages\n'}
+[11.203839] (my_package) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/ros2_ws/install/my_package/share/my_package\n'}
+[11.204841] (my_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.222262] (my_package) StdoutLine: {'line': b'Copying ../../build/my_package/my_package.egg-info to /home/ubuntu/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info\n'}
+[11.237602] (my_package) StdoutLine: {'line': b'running install_scripts\n'}
+[11.265556] (-) TimerEvent: {}
+[11.367232] (-) TimerEvent: {}
+[11.459578] (my_package) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/build/my_package/install.log'\n"}
+[11.467708] (-) TimerEvent: {}
+[11.570124] (-) TimerEvent: {}
+[11.672373] (-) TimerEvent: {}
+[11.702886] (my_package) CommandEnded: {'returncode': 0}
+[11.772920] (-) TimerEvent: {}
+[11.840018] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[11.847193] (-) EventReactorShutdown: {}

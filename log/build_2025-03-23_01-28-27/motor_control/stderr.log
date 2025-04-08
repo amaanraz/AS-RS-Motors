@@ -1,0 +1,5 @@
+  File "/home/ubuntu/ros2_ws/install/motor_control/lib/python3.10/site-packages/motor_control/motor_control.py", line 35
+    elif command = "led_off":
+         ^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+

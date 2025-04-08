@@ -1,0 +1,127 @@
+[0.000000] (-) TimerEvent: {}
+[0.001919] (-) JobUnselected: {'identifier': 'my_package'}
+[0.002549] (motor_control) JobQueued: {'identifier': 'motor_control', 'dependencies': OrderedDict()}
+[0.002782] (motor_control) JobStarted: {'identifier': 'motor_control'}
+[0.098770] (-) TimerEvent: {}
+[0.200068] (-) TimerEvent: {}
+[0.301512] (-) TimerEvent: {}
+[0.402754] (-) TimerEvent: {}
+[0.504072] (-) TimerEvent: {}
+[0.605318] (-) TimerEvent: {}
+[0.706605] (-) TimerEvent: {}
+[0.807840] (-) TimerEvent: {}
+[0.909233] (-) TimerEvent: {}
+[1.010539] (-) TimerEvent: {}
+[1.112233] (-) TimerEvent: {}
+[1.213494] (-) TimerEvent: {}
+[1.314615] (-) TimerEvent: {}
+[1.415826] (-) TimerEvent: {}
+[1.517128] (-) TimerEvent: {}
+[1.618305] (-) TimerEvent: {}
+[1.719495] (-) TimerEvent: {}
+[1.820647] (-) TimerEvent: {}
+[1.921900] (-) TimerEvent: {}
+[2.023092] (-) TimerEvent: {}
+[2.124295] (-) TimerEvent: {}
+[2.225531] (-) TimerEvent: {}
+[2.326746] (-) TimerEvent: {}
+[2.427955] (-) TimerEvent: {}
+[2.529246] (-) TimerEvent: {}
+[2.630391] (-) TimerEvent: {}
+[2.731700] (-) TimerEvent: {}
+[2.833576] (-) TimerEvent: {}
+[2.934847] (-) TimerEvent: {}
+[3.036224] (-) TimerEvent: {}
+[3.137513] (-) TimerEvent: {}
+[3.238735] (-) TimerEvent: {}
+[3.339964] (-) TimerEvent: {}
+[3.441372] (-) TimerEvent: {}
+[3.542681] (-) TimerEvent: {}
+[3.643995] (-) TimerEvent: {}
+[3.745310] (-) TimerEvent: {}
+[3.846525] (-) TimerEvent: {}
+[3.947693] (-) TimerEvent: {}
+[4.048890] (-) TimerEvent: {}
+[4.150145] (-) TimerEvent: {}
+[4.251331] (-) TimerEvent: {}
+[4.352576] (-) TimerEvent: {}
+[4.453815] (-) TimerEvent: {}
+[4.555067] (-) TimerEvent: {}
+[4.656238] (-) TimerEvent: {}
+[4.757507] (-) TimerEvent: {}
+[4.858747] (-) TimerEvent: {}
+[4.959918] (-) TimerEvent: {}
+[5.061220] (-) TimerEvent: {}
+[5.162703] (-) TimerEvent: {}
+[5.263907] (-) TimerEvent: {}
+[5.365163] (-) TimerEvent: {}
+[5.466322] (-) TimerEvent: {}
+[5.567482] (-) TimerEvent: {}
+[5.668755] (-) TimerEvent: {}
+[5.770071] (-) TimerEvent: {}
+[5.871286] (-) TimerEvent: {}
+[5.972036] (-) TimerEvent: {}
+[6.073502] (-) TimerEvent: {}
+[6.175208] (-) TimerEvent: {}
+[6.276495] (-) TimerEvent: {}
+[6.378156] (-) TimerEvent: {}
+[6.480071] (-) TimerEvent: {}
+[6.581963] (-) TimerEvent: {}
+[6.629786] (motor_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/motor_control', 'build', '--build-base', '/home/ubuntu/ros2_ws/src/build/motor_control/build', 'install', '--record', '/home/ubuntu/ros2_ws/src/build/motor_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/ros2_ws/src/motor_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.1.103 56522 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/ros2_ws/src/motor_control', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/src/install:/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/src/install/my_package:/home/ubuntu/ros2_ws/src/install/motor_control:/home/ubuntu/ros2_ws/install/my_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/ros2_ws/src/build/motor_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.103 56522 192.168.1.95 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/src/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/install/motor_control/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/my_package/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/motor_control/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[6.682268] (-) TimerEvent: {}
+[6.783805] (-) TimerEvent: {}
+[6.885061] (-) TimerEvent: {}
+[6.986258] (-) TimerEvent: {}
+[7.087500] (-) TimerEvent: {}
+[7.188717] (-) TimerEvent: {}
+[7.290086] (-) TimerEvent: {}
+[7.391336] (-) TimerEvent: {}
+[7.492606] (-) TimerEvent: {}
+[7.593862] (-) TimerEvent: {}
+[7.695065] (-) TimerEvent: {}
+[7.796240] (-) TimerEvent: {}
+[7.897364] (-) TimerEvent: {}
+[7.998540] (-) TimerEvent: {}
+[8.099724] (-) TimerEvent: {}
+[8.200972] (-) TimerEvent: {}
+[8.302255] (-) TimerEvent: {}
+[8.403485] (-) TimerEvent: {}
+[8.504682] (-) TimerEvent: {}
+[8.605895] (-) TimerEvent: {}
+[8.707045] (-) TimerEvent: {}
+[8.808212] (-) TimerEvent: {}
+[8.909341] (-) TimerEvent: {}
+[9.010057] (-) TimerEvent: {}
+[9.111286] (-) TimerEvent: {}
+[9.179200] (motor_control) StdoutLine: {'line': b'running egg_info\n'}
+[9.185821] (motor_control) StdoutLine: {'line': b'writing ../build/motor_control/motor_control.egg-info/PKG-INFO\n'}
+[9.188366] (motor_control) StdoutLine: {'line': b'writing dependency_links to ../build/motor_control/motor_control.egg-info/dependency_links.txt\n'}
+[9.190354] (motor_control) StdoutLine: {'line': b'writing entry points to ../build/motor_control/motor_control.egg-info/entry_points.txt\n'}
+[9.192522] (motor_control) StdoutLine: {'line': b'writing requirements to ../build/motor_control/motor_control.egg-info/requires.txt\n'}
+[9.194226] (motor_control) StdoutLine: {'line': b'writing top-level names to ../build/motor_control/motor_control.egg-info/top_level.txt\n'}
+[9.211612] (-) TimerEvent: {}
+[9.214321] (motor_control) StdoutLine: {'line': b"reading manifest file '../build/motor_control/motor_control.egg-info/SOURCES.txt'\n"}
+[9.224497] (motor_control) StdoutLine: {'line': b"writing manifest file '../build/motor_control/motor_control.egg-info/SOURCES.txt'\n"}
+[9.226109] (motor_control) StdoutLine: {'line': b'running build\n'}
+[9.227106] (motor_control) StdoutLine: {'line': b'running build_py\n'}
+[9.228601] (motor_control) StdoutLine: {'line': b'copying motor_control/motor_control.py -> /home/ubuntu/ros2_ws/src/build/motor_control/build/lib/motor_control\n'}
+[9.231957] (motor_control) StdoutLine: {'line': b'running install\n'}
+[9.235168] (motor_control) StdoutLine: {'line': b'running install_lib\n'}
+[9.243367] (motor_control) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/src/build/motor_control/build/lib/motor_control/motor_control.py -> /home/ubuntu/ros2_ws/src/install/motor_control/lib/python3.10/site-packages/motor_control\n'}
+[9.250546] (motor_control) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/src/install/motor_control/lib/python3.10/site-packages/motor_control/motor_control.py to motor_control.cpython-310.pyc\n'}
+[9.255889] (motor_control) StdoutLine: {'line': b'running install_data\n'}
+[9.257754] (motor_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.276389] (motor_control) StdoutLine: {'line': b"removing '/home/ubuntu/ros2_ws/src/install/motor_control/lib/python3.10/site-packages/motor_control-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.280992] (motor_control) StdoutLine: {'line': b'Copying ../build/motor_control/motor_control.egg-info to /home/ubuntu/ros2_ws/src/install/motor_control/lib/python3.10/site-packages/motor_control-0.0.0-py3.10.egg-info\n'}
+[9.295294] (motor_control) StdoutLine: {'line': b'running install_scripts\n'}
+[9.311869] (-) TimerEvent: {}
+[9.413229] (-) TimerEvent: {}
+[9.503553] (motor_control) StdoutLine: {'line': b'Installing motor_control script to /home/ubuntu/ros2_ws/src/install/motor_control/lib/motor_control\n'}
+[9.507428] (motor_control) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/src/build/motor_control/install.log'\n"}
+[9.513573] (-) TimerEvent: {}
+[9.615654] (-) TimerEvent: {}
+[9.717262] (-) TimerEvent: {}
+[9.734601] (motor_control) CommandEnded: {'returncode': 0}
+[9.818047] (-) TimerEvent: {}
+[9.855219] (motor_control) JobEnded: {'identifier': 'motor_control', 'rc': 0}
+[9.861908] (-) EventReactorShutdown: {}

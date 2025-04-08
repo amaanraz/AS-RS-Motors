@@ -1,0 +1,25 @@
+[5.137s] Invoking command in '/home/ubuntu/ros2_ws/src/motor_control': PYTHONPATH=/home/ubuntu/ros2_ws/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor_control build --build-base /home/ubuntu/ros2_ws/build/motor_control/build install --record /home/ubuntu/ros2_ws/build/motor_control/install.log --single-version-externally-managed install_data
+[6.402s] running egg_info
+[6.405s] writing ../../build/motor_control/motor_control.egg-info/PKG-INFO
+[6.411s] writing dependency_links to ../../build/motor_control/motor_control.egg-info/dependency_links.txt
+[6.411s] writing entry points to ../../build/motor_control/motor_control.egg-info/entry_points.txt
+[6.414s] writing requirements to ../../build/motor_control/motor_control.egg-info/requires.txt
+[6.415s] writing top-level names to ../../build/motor_control/motor_control.egg-info/top_level.txt
+[6.424s] reading manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'
+[6.431s] writing manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'
+[6.433s] running build
+[6.433s] running build_py
+[6.435s] copying motor_control/motor_control.py -> /home/ubuntu/ros2_ws/build/motor_control/build/lib/motor_control
+[6.436s] running install
+[6.438s] running install_lib
+[6.445s] copying /home/ubuntu/ros2_ws/build/motor_control/build/lib/motor_control/motor_control.py -> /home/ubuntu/ros2_ws/install/motor_control/lib/python3.10/site-packages/motor_control
+[6.450s] byte-compiling /home/ubuntu/ros2_ws/install/motor_control/lib/python3.10/site-packages/motor_control/motor_control.py to motor_control.cpython-310.pyc
+[6.452s] running install_data
+[6.453s] Sorry: IndentationError: expected an indented block after 'if' statement on line 34 (motor_control.py, line 36)
+[6.454s] running install_egg_info
+[6.464s] removing '/home/ubuntu/ros2_ws/install/motor_control/lib/python3.10/site-packages/motor_control-0.0.0-py3.10.egg-info' (and everything under it)
+[6.466s] Copying ../../build/motor_control/motor_control.egg-info to /home/ubuntu/ros2_ws/install/motor_control/lib/python3.10/site-packages/motor_control-0.0.0-py3.10.egg-info
+[6.474s] running install_scripts
+[6.577s] Installing motor_control script to /home/ubuntu/ros2_ws/install/motor_control/lib/motor_control
+[6.581s] writing list of installed files to '/home/ubuntu/ros2_ws/build/motor_control/install.log'
+[6.870s] Invoked command in '/home/ubuntu/ros2_ws/src/motor_control' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor_control build --build-base /home/ubuntu/ros2_ws/build/motor_control/build install --record /home/ubuntu/ros2_ws/build/motor_control/install.log --single-version-externally-managed install_data

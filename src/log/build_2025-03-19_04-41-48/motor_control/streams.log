@@ -1,0 +1,36 @@
+[6.484s] Invoking command in '/home/ubuntu/ros2_ws/src/motor_control': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/motor_control build --build-base /home/ubuntu/ros2_ws/src/build/motor_control/build install --record /home/ubuntu/ros2_ws/src/build/motor_control/install.log --single-version-externally-managed install_data
+[9.070s] running egg_info
+[9.072s] creating ../build/motor_control/motor_control.egg-info
+[9.073s] writing ../build/motor_control/motor_control.egg-info/PKG-INFO
+[9.074s] writing dependency_links to ../build/motor_control/motor_control.egg-info/dependency_links.txt
+[9.075s] writing entry points to ../build/motor_control/motor_control.egg-info/entry_points.txt
+[9.076s] writing requirements to ../build/motor_control/motor_control.egg-info/requires.txt
+[9.076s] writing top-level names to ../build/motor_control/motor_control.egg-info/top_level.txt
+[9.077s] writing manifest file '../build/motor_control/motor_control.egg-info/SOURCES.txt'
+[9.084s] reading manifest file '../build/motor_control/motor_control.egg-info/SOURCES.txt'
+[9.088s] writing manifest file '../build/motor_control/motor_control.egg-info/SOURCES.txt'
+[9.088s] running build
+[9.089s] running build_py
+[9.089s] creating /home/ubuntu/ros2_ws/src/build/motor_control/build
+[9.090s] creating /home/ubuntu/ros2_ws/src/build/motor_control/build/lib
+[9.091s] creating /home/ubuntu/ros2_ws/src/build/motor_control/build/lib/motor_control
+[9.091s] copying motor_control/__init__.py -> /home/ubuntu/ros2_ws/src/build/motor_control/build/lib/motor_control
+[9.091s] copying motor_control/motor_control.py -> /home/ubuntu/ros2_ws/src/build/motor_control/build/lib/motor_control
+[9.093s] running install
+[9.095s] running install_lib
+[9.098s] creating /home/ubuntu/ros2_ws/src/install/motor_control/lib/python3.10/site-packages/motor_control
+[9.098s] copying /home/ubuntu/ros2_ws/src/build/motor_control/build/lib/motor_control/__init__.py -> /home/ubuntu/ros2_ws/src/install/motor_control/lib/python3.10/site-packages/motor_control
+[9.099s] copying /home/ubuntu/ros2_ws/src/build/motor_control/build/lib/motor_control/motor_control.py -> /home/ubuntu/ros2_ws/src/install/motor_control/lib/python3.10/site-packages/motor_control
+[9.102s] byte-compiling /home/ubuntu/ros2_ws/src/install/motor_control/lib/python3.10/site-packages/motor_control/__init__.py to __init__.cpython-310.pyc
+[9.103s] byte-compiling /home/ubuntu/ros2_ws/src/install/motor_control/lib/python3.10/site-packages/motor_control/motor_control.py to motor_control.cpython-310.pyc
+[9.106s] running install_data
+[9.106s] creating /home/ubuntu/ros2_ws/src/install/motor_control/share/ament_index
+[9.107s] creating /home/ubuntu/ros2_ws/src/install/motor_control/share/ament_index/resource_index
+[9.107s] creating /home/ubuntu/ros2_ws/src/install/motor_control/share/ament_index/resource_index/packages
+[9.108s] copying resource/motor_control -> /home/ubuntu/ros2_ws/src/install/motor_control/share/ament_index/resource_index/packages
+[9.108s] copying package.xml -> /home/ubuntu/ros2_ws/src/install/motor_control/share/motor_control
+[9.109s] running install_egg_info
+[9.117s] Copying ../build/motor_control/motor_control.egg-info to /home/ubuntu/ros2_ws/src/install/motor_control/lib/python3.10/site-packages/motor_control-0.0.0-py3.10.egg-info
+[9.123s] running install_scripts
+[9.304s] writing list of installed files to '/home/ubuntu/ros2_ws/src/build/motor_control/install.log'
+[9.529s] Invoked command in '/home/ubuntu/ros2_ws/src/motor_control' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/motor_control build --build-base /home/ubuntu/ros2_ws/src/build/motor_control/build install --record /home/ubuntu/ros2_ws/src/build/motor_control/install.log --single-version-externally-managed install_data
