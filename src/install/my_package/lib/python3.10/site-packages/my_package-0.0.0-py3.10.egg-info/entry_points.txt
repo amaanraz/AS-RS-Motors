@@ -1,3 +1,0 @@
-[console_scripts]
-motor_listener = my_package.motor_listener:main
-
